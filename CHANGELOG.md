@@ -1,6 +1,8 @@
 master
 ------
 
+* Remove support for Ruby 2.1.x. [#400]
+
 0.7.1
 -----
 
@@ -12,6 +14,7 @@ master
 * Don't mount route helpers at top-level. Instead, mount within the surrounding
   context with which they're invoked. [#381]
 
+[#400]: https://github.com/thoughtbot/ember-cli-rails/pull/400
 [#395]: https://github.com/thoughtbot/ember-cli-rails/pull/395
 [#381]: https://github.com/thoughtbot/ember-cli-rails/pull/381
 
